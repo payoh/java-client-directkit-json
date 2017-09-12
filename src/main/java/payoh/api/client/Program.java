@@ -1,4 +1,4 @@
-package lw.api.client;
+package payoh.api.client;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -9,7 +9,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 /**
- * This example shows how to call the LemonWay DirectKit JSON API.
+ * This example shows how to call the Payoh DirectKit JSON API.
  * It is very simple: We have to send the post request in the right format to the right URL
  */
 public class Program {
@@ -79,7 +79,7 @@ public class Program {
 			
 			//Prepare a request GetWalletDetails
 			//See the request format in our API documentation 
-			//http://documentation.lemonway.fr/api-en/directkit/manage-wallets/getwalletdetails-getting-detailed-wallet-data
+			//https://payoh.me/documentazione/api/directkit.wallets.get-details
 			String jsonRequest = readResource("GetWalletDetails.001.json");
 			
 			//Send request (replace "hiep" by your company name)

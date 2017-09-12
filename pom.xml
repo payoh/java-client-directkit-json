@@ -4,5 +4,5 @@
   <artifactId>java-client-directkit-json</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>java-client-directkit-json</name>
-  <description>Access LemonWay Json API</description>
+  <description>Access Payoh Json API</description>
 </project>

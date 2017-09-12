@@ -1,8 +1,8 @@
-This example shows how to call the LemonWay DirectKit JSON API.
+This example shows how to call the Payoh DirectKit JSON API.
 
 It is very simple. We have to send the Post request in the right format to the right URL.
 
-To know the request format of each method, see http://documentation.lemonway.fr/ 
+To know the request format of each method, see https://payoh.me/documentazione 
 
 # Compile then run
 ```
